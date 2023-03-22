@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(220, 15%, 55%);
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -8,12 +8,12 @@ body {
   margin: 0;
 }
 
-.main {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100svh;
 }
 
 .container {
@@ -30,8 +30,9 @@ img {
   border-radius: 10px;
 }
 
-h3 {
+h1 {
   color: black;
+  font-size: 1.3em;
 }
 
 p {
